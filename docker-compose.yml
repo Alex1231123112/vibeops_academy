@@ -1,0 +1,12 @@
+# VibeOps — сервисы
+# Простая админка (форма): docker compose up -d
+# Полная админка (HT): см. tools/ht-admin/README.md
+
+services:
+  telegram-admin:
+    build: ./tools/telegram-admin
+    ports:
+      - "8800:8800"
+    env_file:
+      - tools/telegram-admin/.env
+    restart: unless-stopped
