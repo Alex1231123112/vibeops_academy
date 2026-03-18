@@ -16,6 +16,7 @@
 
 ### 📋 Что вы изучите
 - ✅ Основы Python (достаточно, чтобы понимать код от AI)
+- ✅ Обзор других языков (JS/TS, Go) и отличия от Python
 - ✅ Git и терминал — must have для любого разработчика
 - ✅ Docker — упаковка приложений в контейнеры
 - ✅ CI/CD — автоматический деплой при каждом пуше
@@ -52,6 +53,10 @@
 - [Урок 1.3: Структуры данных](module-01-basics/lesson-03-data-structures/)
 - [Урок 1.4: ООП для начинающих](module-01-basics/lesson-04-oop-basics/)
 - [Урок 1.5: Code Review](module-01-basics/lesson-05-code-review/)
+- [Урок 1.6: Управляющие конструкции](module-01-basics/lesson-06-control-flow/)
+- [Урок 1.7: Ошибки и исключения](module-01-basics/lesson-07-errors-and-exceptions/)
+- [Урок 1.8: Файлы, JSON и typing](module-01-basics/lesson-08-files-json-typing/)
+- [Урок 1.9: Другие языки — JS/TS и Go](module-01-basics/lesson-09-other-languages/)
 
 ### Модуль 2: Инструменты
 - [Урок 2.1: Терминал](module-02-tools/lesson-01-terminal/)
@@ -59,6 +64,7 @@
 - [Урок 2.3: Настройка Cursor](module-02-tools/lesson-03-cursor-setup/)
 - [Урок 2.4: Промпт-инжиниринг](module-02-tools/lesson-04-prompt-engineering/)
 - [Урок 2.5: Зависимости](module-02-tools/lesson-05-dependencies/)
+- [Урок 2.6: Тестирование (pytest)](module-02-tools/lesson-06-testing/)
 
 ### Модуль 3: Docker
 - [Урок 3.1: Что такое Docker](module-03-docker/lesson-01-what-is-docker/)
@@ -133,7 +139,7 @@ cd ht-admin
 cp ../ht-admin-vibeops/.env.vibeops.example .env
 # Отредактируйте .env: BOT_TOKEN, JWT_SECRET, ADMIN_DEFAULT_PASSWORD
 
-docker compose -f docker-compose.yml -f ../docker-compose.vibeops.yml up -d --build
+docker compose -f docker-compose.yml -f ../ht-admin-vibeops/docker-compose.vibeops.yml up -d --build
 ```
 
 Админка: **http://localhost:8800**

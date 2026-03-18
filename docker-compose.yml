@@ -1,6 +1,6 @@
 # VibeOps — сервисы
 # Простая админка (форма): docker compose up -d
-# Полная админка (HT): см. tools/ht-admin/README.md
+# Полная админка (HT): см. tools/ht-admin-vibeops/README.md
 
 services:
   telegram-admin:

@@ -7,3 +7,4 @@
 ## Список
 
 - [post-01-welcome.md](post-01-welcome.md) — первый пост, знакомство с каналом
+- [content-plan-2months.md](content-plan-2months.md) — контент-план на 2 месяца (24 поста + бонусы)

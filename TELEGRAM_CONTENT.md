@@ -8,9 +8,12 @@
 | **Название (рус.)** | VibeOps Академия |
 | **Чат** | @vibeops_academy_chat |
 
-Шаблоны постов и расписание на 8 недель. См. полный план в описании пакета.
+**Описание проекта и промпт для аватарки:** [docs/BRANDING.md](docs/BRANDING.md)
 
-**Готовые посты:** [resources/posts/](resources/posts/)
+Шаблоны постов и расписание на 8 недель.
+
+**Готовые посты:** [resources/posts/](resources/posts/)  
+**Контент-план на 2 месяца:** [content-plan-2months.md](resources/posts/content-plan-2months.md) — 24 поста + бонусы
 
 ## Шаблоны постов
 

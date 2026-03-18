@@ -1,0 +1,7 @@
+# VibeOps — override портов для HT
+# Использование: docker compose -f docker-compose.yml -f ../ht-admin-vibeops/docker-compose.vibeops.yml up -d
+
+services:
+  frontend:
+    ports:
+      - "8800:80"
