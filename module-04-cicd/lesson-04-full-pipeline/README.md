@@ -5,6 +5,14 @@
 - Тесты → Сборка → Деплой
 - Мониторинг и логи
 
+## ⏱️ Сколько времени
+
+Ориентир: **3–6 часов** (собрать CI+CD+health+logs+secrets).
+
+## 📺 Видео
+
+- [Все видео курса](../../resources/videos.md)
+
 ## Что такое “полный пайплайн” в учебном проде
 
 Минимально приемлемый pipeline для junior-ready проекта:
@@ -25,8 +33,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-python@v6
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: "pip"
@@ -98,6 +106,14 @@ log.info("service_started")
 - [ ] Есть `/health` и вы проверяете его после деплоя
 - [ ] Есть базовые логи, по которым можно понять "что происходит"
 
+## 🧾 Шпаргалка
+
+См. [cheatsheet.md](cheatsheet.md).
+
 ## 🏠 Домашнее задание
 
 См. [homework.md](homework.md).
+
+## 🤖 Промпты для AI
+
+См. [prompts.md](prompts.md).

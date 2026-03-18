@@ -2,6 +2,10 @@
 
 Готовые промпты для разных задач в разработке с AI.
 
+## Быстрый старт
+
+- Универсальный шаблон: [template.md](template.md)
+
 ## Разделы
 
 - [Для начинающих](for-beginners.md)
@@ -9,6 +13,7 @@
 - [Для архитектуры](for-architecture.md)
 - [Для Docker](for-docker.md)
 - [Для CI/CD](for-cicd.md)
+- [Для безопасности](for-security.md)
 - [Специализированные агенты](../integrations/agency-agents.md) — agency-agents для Cursor/Claude
 
 ## Специализированные AI-агенты

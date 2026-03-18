@@ -1,11 +1,57 @@
 # Урок 2.2: Git
 
-## 📺 Видео
-- [GIT — Полный Курс Git и GitHub Для Начинающих](https://www.youtube.com/watch?v=O00FTZDxD0o) (4 ч)
-- [Git и GitHub. Полный курс за 3 часа](https://rutube.ru/video/241fc27e15d7c0c12c32c20270a47b20/) (RuTube)
-- [Все видео курса](../../resources/videos.md)
-
 ## 🎯 Цели урока
 - init, add, commit, push
 - Ветки и merge
 - GitHub — создание репозитория
+
+## ⏱️ Сколько времени
+
+Ориентир: **2–3 часа** (сделать репозиторий + 2–3 коммита).
+
+## 📺 Видео
+
+- [GIT — Полный Курс Git и GitHub Для Начинающих](https://www.youtube.com/watch?v=O00FTZDxD0o) (4 ч)
+- [Git и GitHub. Полный курс за 3 часа](https://rutube.ru/video/241fc27e15d7c0c12c32c20270a47b20/) (RuTube)
+- [Все видео курса](../../resources/videos.md)
+
+## 📖 Теория (минимум)
+
+### Зачем Git
+
+Git даёт:
+- историю изменений (можно откатиться),
+- совместную работу (PR/review),
+- воспроизводимость (“что именно поменялось”).
+
+### Минимальный workflow
+
+1) `git status` — что изменилось  
+2) `git add ...` — что именно пойдёт в коммит  
+3) `git commit -m "...“` — фиксация  
+4) `git push` — отправка на GitHub  
+
+### Ветки (простая модель)
+
+- `main` — “стабильная” ветка
+- `feature/...` — ветка под конкретную задачу
+- После работы — merge через PR (или локально, если вы один)
+
+## 🧾 Шпаргалка и Git Flow
+
+- Шпаргалка: [cheatsheet.md](cheatsheet.md)
+- Flow: [git-flow.md](git-flow.md)
+
+## 🏠 Домашнее задание
+
+См. [homework.md](homework.md).
+
+## 🤖 Промпты для AI
+
+См. [prompts.md](prompts.md).
+
+## ✅ Чек-лист
+
+- [ ] Я понимаю разницу между `add` и `commit`
+- [ ] Я умею сделать репозиторий на GitHub и `push`
+- [ ] Я умею создать ветку и сделать PR (или хотя бы merge локально)

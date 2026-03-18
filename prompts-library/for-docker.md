@@ -1,5 +1,7 @@
 # Промпты для Docker
 
+Перед использованием: см. общий шаблон промпта — [template.md](template.md).
+
 ## С agency-agents
 
 Установите [agency-agents](https://github.com/msitarzewski/agency-agents). Для безопасности — **Security Engineer**, для пайплайнов — **DevOps Automator**.

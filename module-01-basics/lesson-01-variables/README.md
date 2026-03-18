@@ -5,6 +5,10 @@
 - Научиться работать с типами данных
 - Узнать, какие ошибки AI делает в переменных
 
+## ⏱️ Сколько времени
+
+Ориентир: **2–4 часа** (прочитать + сделать калькулятор и TODO-лист).
+
 ## 📺 Видео
 - [Python для начинающих](https://www.lektorium.tv/python-dlya-nachinayushchih) (Лекториум)
 - [Python: с нуля до первого проекта](https://free.eduson.academy/python-razrabotchik) (Eduson)
