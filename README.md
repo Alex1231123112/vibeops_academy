@@ -40,6 +40,7 @@
 - [Переводы](resources/translations/) — W3Schools, Real Python, 12 Factor App, Vibe Coding
 - [Видеоуроки](resources/videos.md) — подборка видео по всем модулям курса
 - [Структура проекта](docs/STRUCTURE.md) — что публикуетcя в Git, что остаётся локально
+- [Analytics Track](analytics-track/) — отдельный трек для аналитиков (core + специализации + финальный проект)
 
 ## 📖 Программа
 
